@@ -1,0 +1,17 @@
+.home {
+    height: 100vh; 
+    background-image: url('../assets/Imagenespro/3626307.jpg');
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 45, 197); 
+  }
+  
+  .fondo {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    text-align: center;
+  }
+  
