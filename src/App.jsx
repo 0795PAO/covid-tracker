@@ -1,19 +1,19 @@
-import React from "react"
-import Button from "./componentes/Button"
-import Navbar from "./componentes/Navbar"
-import Home from "./componentes/Home"
+import React from "react";
+import Home from "./componentes/Home";
+import Navbar2 from "./componentes/Navbar2";
+import Symptom from "./componentes/Symptom";
+import Prevent from "./componentes/Prevent"
+import "./app.css";
 
-function App() {
+function App  ()  {
   return (
-    <div>
-      <Button title="logo-white" texto="info"/>
-      <h1>Stay Home And Prayer For Victim Of Corona virus</h1>
-      <Navbar />
+    <div className="covimap">
+      <Navbar2 />
       <Home />
+      <Symptom />
+      <Prevent />
     </div>
-
-
-  )
-}
+  );
+};
 
 export default App;
